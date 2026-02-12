@@ -1,0 +1,14 @@
+{
+  "name": "mvp-automation-bots",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "discord": "node discordBot.js",
+    "telegram": "node telegramBot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
